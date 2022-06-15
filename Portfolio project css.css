@@ -1,0 +1,97 @@
+body{
+    background-color: #659DBD;
+}
+header {
+    width:53%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li { 
+    width:120px;
+    font-size:24px;
+    display:inline-flex;
+    justify-content: space-around; 
+}       
+#menu a{
+    text-decoration:none;
+}
+#aboutme{
+    width:32%;
+    text-align: center;
+}
+a:link{
+    font-weight:bold;
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:darkcyan;
+}
+#photo{
+    position:absolute;
+    left:680px;
+    bottom:61%;
+}
+main {
+    font-size:19.5px;
+    font-family: 'Lobster', cursive;
+}
+#photosflexbox{
+    display:flex;
+}
+
+.projects{
+    width:52%;
+    color:black;
+    display:flex;
+    justify-content: space-between;
+}
+.projects li{
+   font-size:24px;
+   font-weight:bold;
+   cursor:pointer;
+    
+}   
+#projectsphotos {
+    width:53%;
+    display:flex;
+    justify-content: space-between;
+}
+#projectsphotos img{
+    width:300px;
+}
+    
+#projectsheader{
+    width:53%;
+    text-align:center;
+}
+#projects1header{
+    width:53%;
+    text-align:center;
+}
+.projects1{ 
+ width:50%;
+ display:flex;
+ justify-content: space-evenly;
+ list-style-type:none;
+}
+.projects1 li{
+    width:50px;
+}
+
+footer{
+    font-family: 'Lobster', cursive;
+    font-size:24px;
+    font-weight:bold;
+}
+
+footer {
+    width:53%;
+}
+
+footer hr{
+    border:2px solid rgb(34, 129, 77);
+}
